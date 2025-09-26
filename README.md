@@ -1,7 +1,7 @@
-# Pit Voids Analyzer
+# PitPixie
 
 ## Overview
-The Pit Voids Analyzer is a Python application that utilizes Azure AI Search and the Azure AI Foundry o3-mini model to analyze "Pit Voids" within a given dataset. This application provides a chat interface for users to interact with the AI model and receive insights based on their queries.
+The PitPixie is a Python application that utilizes Azure AI Search and the Azure AI Foundry o3-mini model to analyze "Pit Voids" within a given dataset. This application provides a chat interface for users to interact with the AI model and receive insights based on their queries.
 
 ## Prerequisites
 Before you begin, ensure you have the following installed on your machine:
@@ -62,6 +62,8 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Running the Application
 
+### PitPixie Chat
+
 To start the application, run the following command:
 ```bash
 python src/main.py
@@ -69,7 +71,30 @@ python src/main.py
 
 Once the application is running, you will be prompted to enter a question related to "Pit Voids." The application will interact with the Azure AI Foundry model and provide responses in a chat format.
 
-## Usage Instructions
+### PitPixie Batch Processing
+
+The Batch Processing script processes a list of questions from a text file (`src/questions.txt`) and saves the responses to individual text files within the `output` directory.
+
+To run batch processing out to individual TXT files, use the following command:
+```bash
+python src/batch_qas.py
+```
+
+To run the batch processing and output to a single JSON file, use:
+```bash
+python src/batch_qa_json.py
+```
+
+### PitPixie Convert to CSV
+
+Once the batch processing is complete, you can convert the output text files into a single CSV file for easier analysis.
+
+To run the conversion script, use the following command:
+```bash
+python src/transform_csv.py
+```
+
+## Chat Usage Instructions
 
 - Type your question when prompted and press Enter.
 - The application will display the response from the AI model.
