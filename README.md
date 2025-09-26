@@ -13,7 +13,6 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Clone the Repository**
    ```bash
    git clone <repository-url>
-   cd pit-voids-analyzer
    ```
 
 2. **Create a Virtual Environment**
@@ -43,6 +42,23 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    cp .env.example .env
    ```
+   
+   You'll need to configure the following environment variables in your `.env` file:
+   
+   **Azure Cognitive Search:**
+   - `AZURE_SEARCH_ENDPOINT` - Your Azure Search service URL
+   - `AZURE_SEARCH_KEY` - Admin or query key for the search service
+   - `AZURE_SEARCH_INDEX` - Name of the search index containing Pit-Void documents
+   - `AZURE_SEMANTIC_CONFIG` - Semantic configuration name for enhanced search
+   
+   **Azure AI Foundry (o3-mini model):**
+   - `FOUNDARY_MODEL_ENDPOINT` - Complete endpoint URL for your o3-mini deployment
+   - `FOUNDARY_API_KEY` - API key for the Foundry service
+   
+   **Azure OpenAI (for embeddings):**
+   - `AZURE_OPENAI_ENDPOINT` - Azure OpenAI service endpoint for embeddings
+   - `AZURE_OPENAI_KEY` - API key for Azure OpenAI service
+   - `EMBEDDING_DEPLOYMENT` - Name of your text embedding deployment (e.g., text-embedding-3-small)
 
 ## Running the Application
 
@@ -67,9 +83,14 @@ Once the application is running, you will be prompted to enter a question relate
 ## Troubleshooting
 
 If you encounter any issues, please check the following:
-- Ensure your Azure credentials are correctly set in the `.env` file.
-- Verify that all dependencies are installed without errors.
-- Check the console for any error messages that may provide clues to the issue.
+- **Environment Variables**: Ensure all required Azure credentials are correctly set in the `.env` file:
+  - Azure Search credentials (endpoint, key, index, semantic config)
+  - Azure AI Foundry credentials (model endpoint, API key)  
+  - Azure OpenAI credentials (endpoint, key, embedding deployment)
+- **Dependencies**: Verify that all dependencies are installed without errors by running `pip install -r requirements.txt`
+- **Virtual Environment**: Make sure you've activated your virtual environment before running the application
+- **Azure Services**: Ensure you have the necessary permissions and access to the Azure services
+- **Error Logs**: Check the console for any error messages that may provide clues to the issue
 
 ## License
 
