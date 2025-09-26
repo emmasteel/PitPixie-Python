@@ -1,6 +1,6 @@
 """
 azure_search.py
-Light-weight helper around Azure AI Search for the Pit-Voids Analyzer.
+Light-weight helper around Azure AI Search for the Pit-Voids Analyser.
 Environment variables required
 --------------------------------
 AZURE_SEARCH_ENDPOINT   e.g. https://<your-service>.search.windows.net

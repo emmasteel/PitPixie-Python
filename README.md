@@ -1,7 +1,7 @@
-# PitPixie
+# ✨PitPixie✨ | Pit Void Analyser
 
 ## Overview
-The PitPixie is a Python application that utilizes Azure AI Search and the Azure AI Foundry o3-mini model to analyze "Pit Voids" within a given dataset. This application provides a chat interface for users to interact with the AI model and receive insights based on their queries.
+The PitPixie is a Python application that utilises Azure AI Search and the Azure AI Foundry o3-mini model to analyse "Pit Voids" within a given dataset. This application provides a chat interface for users to interact with the AI model and receive insights based on their queries.
 
 ## Prerequisites
 Before you begin, ensure you have the following installed on your machine:
@@ -117,6 +117,6 @@ If you encounter any issues, please check the following:
 - **Azure Services**: Ensure you have the necessary permissions and access to the Azure services
 - **Error Logs**: Check the console for any error messages that may provide clues to the issue
 
-## License
+## Licence
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT Licence - see the LICENCE file for details.

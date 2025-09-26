@@ -1,7 +1,7 @@
 # Prompt Engineering Instructions for Azure AI Foundry Model
 
 ## Overview
-This document provides guidelines for crafting effective prompts to interact with the Azure AI Foundry o3-mini model. Proper prompt engineering is crucial for obtaining accurate and relevant responses from the model, especially when analyzing datasets related to "Pit Voids."
+This document provides guidelines for crafting effective prompts to interact with the Azure AI Foundry o3-mini model. Proper prompt engineering is crucial for obtaining accurate and relevant responses from the model, especially when analysing datasets related to "Pit Voids."
 
 ## General Guidelines
 1. **Be Specific**: Clearly define what you want to know. Instead of asking vague questions, provide context and details.
