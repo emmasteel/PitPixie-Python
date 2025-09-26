@@ -1,0 +1,11 @@
+How many pit voids will remain at closure?
+Can you determine the coordinates for each? (Map with locations/where are they?) (note this might need additional info than the mine closure plan if only tenement numbers are given)
+How many pits are there that currently have water in them?
+How much water is in the pit currently? (depth of water or volume of water)
+What is the likelihood that empty pit voids become pit lakes?
+How old are the pit voids? (How long since mining ceased for each, or when will it cease?)
+How much of the disturbed area of each mine is pit voids? (This could be extended to other types of disturbed area)
+What management plans are in place for the pit voids following closure?
+Have any environmental risks been identified for any of the pit voids or (future or existing) pit lakes?
+Does the mine closure plan identify any knowledge gaps or additional monitoring or trials that are required for successful mine closure?
+Has the mine closure plan considered surface water flow and how it will impact post-closure landforms ?

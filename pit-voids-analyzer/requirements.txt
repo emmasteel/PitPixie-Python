@@ -1,0 +1,5 @@
+azure-search-documents>=11.5.0b1      # vector-query fix
+azure-core>=1.30.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+openai>=1.0.0
